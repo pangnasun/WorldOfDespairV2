@@ -64,6 +64,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AltRealities\Scripts\GazePlanter.cs" />
+    <Compile Include="Assets\AltRealities\Scripts\GvrReticlePointer.cs" />
+    <Compile Include="Assets\AltRealities\Scripts\GyroController.cs" />
+    <Compile Include="Assets\AltRealities\Scripts\VrEditorEmulator.cs" />
     <Compile Include="Assets\DarkAndStormy-master\Assets\DarkAndStormy\PostProcess\PostProcess.cs" />
     <Compile Include="Assets\DarkAndStormy-master\Assets\Scripts\Camera\MatchEditorCamera.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
@@ -115,6 +119,10 @@
     <Compile Include="Assets\Flooded_Grounds\Scripts\FPSController\CharController_Motor.cs" />
     <Compile Include="Assets\Flooded_Grounds\Scripts\FPSDisplay.cs" />
     <Compile Include="Assets\Flooded_Grounds\Scripts\WaterFloat.cs" />
+    <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\CameraPointer.cs" />
+    <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\CardboardStartup.cs" />
+    <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\ObjectController.cs" />
+    <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\VrModeController.cs" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\GrainGen.shader" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
@@ -169,6 +177,7 @@
     <None Include="Assets\Flooded_Grounds\Content\Shaders\FG_Triplanar_BumpSpec.shader" />
     <None Include="Assets\DarkAndStormy-master\Assets\DarkAndStormy\Shaders\FogInclude.cginc" />
     <None Include="Assets\AltRealities\Shaders\Skybox\Horizontal Skybox.shader" />
+    <None Include="Assets\AltRealities\Shaders\GvrReticleShader.shader" />
     <None Include="Assets\AltRealities\Shaders\StandardTextureBlend.shader" />
     <None Include="Assets\Flooded_Grounds\Content\Shaders\FG_Skybox_Rotating.shader" />
     <None Include="Assets\Flooded_Grounds\Content\Shaders\FG_PBR_Water.shader" />
@@ -706,6 +715,12 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Polybrush">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Unity.Polybrush.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Polybrush.Editor">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Unity.Polybrush.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -727,11 +742,32 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Polybrush">
-      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Unity.Polybrush.dll</HintPath>
+    <Reference Include="Unity.XR.Management">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Polybrush.Editor">
-      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Unity.Polybrush.Editor.dll</HintPath>
+    <Reference Include="Unity.Subsystem.Registration">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.XR.Cardboard">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Google.XR.Cardboard.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management.Editor">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.XR.Cardboard.Editor">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Google.XR.Cardboard.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>

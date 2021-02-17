@@ -677,6 +677,12 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Polybrush">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Unity.Polybrush.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Polybrush.Editor">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Unity.Polybrush.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -698,11 +704,32 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Polybrush">
-      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Unity.Polybrush.dll</HintPath>
+    <Reference Include="Unity.XR.Management">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Polybrush.Editor">
-      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Unity.Polybrush.Editor.dll</HintPath>
+    <Reference Include="Unity.Subsystem.Registration">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.XR.Cardboard">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Google.XR.Cardboard.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management.Editor">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.XR.Cardboard.Editor">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Google.XR.Cardboard.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
