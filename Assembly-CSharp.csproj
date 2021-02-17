@@ -64,10 +64,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AltRealities\FPSCounter\FPSCounter.cs" />
     <Compile Include="Assets\AltRealities\Scripts\GazePlanter.cs" />
     <Compile Include="Assets\AltRealities\Scripts\GvrReticlePointer.cs" />
     <Compile Include="Assets\AltRealities\Scripts\GyroController.cs" />
     <Compile Include="Assets\AltRealities\Scripts\VrEditorEmulator.cs" />
+    <Compile Include="Assets\Church1AnimController.cs" />
     <Compile Include="Assets\DarkAndStormy-master\Assets\DarkAndStormy\PostProcess\PostProcess.cs" />
     <Compile Include="Assets\DarkAndStormy-master\Assets\Scripts\Camera\MatchEditorCamera.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
@@ -123,6 +125,8 @@
     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\CardboardStartup.cs" />
     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\ObjectController.cs" />
     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\VrModeController.cs" />
+    <Compile Include="Assets\Vill1Wall1MidAController.cs" />
+    <Compile Include="Assets\Villa1Top1Controller.cs" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\GrainGen.shader" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />

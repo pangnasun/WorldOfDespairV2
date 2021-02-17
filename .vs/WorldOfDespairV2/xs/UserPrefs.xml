@@ -1,7 +1,10 @@
 ﻿<Properties StartupConfiguration="{2FE83ED6-8174-68AB-517C-306B54D72CEB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Flooded_Grounds/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Church1AnimController.cs">
     <Files>
-      <File FileName="Assets/Flooded_Grounds/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs" Line="29" Column="2" />
+      <File FileName="Assets/Samples/Google Cardboard XR Plugin for Unity/1.4.1/Hello Cardboard/Scripts/CameraPointer.cs" Line="41" Column="100" />
+      <File FileName="Assets/Villa1Top1Controller.cs" Line="7" Column="5" />
+      <File FileName="Assets/Vill1Wall1MidAController.cs" Line="26" Column="6" />
+      <File FileName="Assets/Church1AnimController.cs" Line="26" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,12 +14,20 @@
               <Node name="Flooded_Grounds" expanded="True">
                 <Node name="PostProcessing" expanded="True">
                   <Node name="Editor" expanded="True">
-                    <Node name="PropertyDrawers" expanded="True">
-                      <Node name="MinDrawer.cs" selected="True" />
+                    <Node name="PropertyDrawers" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Samples" expanded="True">
+                <Node name="Google Cardboard XR Plugin for Unity" expanded="True">
+                  <Node name="1.4.1" expanded="True">
+                    <Node name="Hello Cardboard" expanded="True">
+                      <Node name="Scripts" expanded="True" />
                     </Node>
                   </Node>
                 </Node>
               </Node>
+              <Node name="Church1AnimController.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -26,7 +37,7 @@
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp-Editor PreferredExecutionTarget="5d1af839-6208-4d55-87f0-14a830309300" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="70ebf73e-de21-4cf1-8085-6b54d42049af" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="656fa12c-c965-46cc-b210-674bcb028df8" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
