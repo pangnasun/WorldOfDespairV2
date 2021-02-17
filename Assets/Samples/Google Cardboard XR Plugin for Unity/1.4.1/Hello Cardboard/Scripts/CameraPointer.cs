@@ -27,7 +27,7 @@ public class CameraPointer : MonoBehaviour
     public LayerMask layerMask;
     public GvrReticlePointer reticlePointer;
 
-    private const float _maxDistance = 10;
+    private const float _maxDistance = 20;
     private GameObject _gazedAtObject = null;
 
     /// <summary>
