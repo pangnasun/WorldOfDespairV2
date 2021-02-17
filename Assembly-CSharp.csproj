@@ -721,6 +721,12 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Polybrush">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Unity.Polybrush.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Polybrush.Editor">
+      <HintPath>/Users/pangnasun/Unity/WorldOfDespairV2/Library/ScriptAssemblies/Unity.Polybrush.Editor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
