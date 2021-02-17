@@ -5,23 +5,60 @@ using UnityEngine;
 public class Church1AnimController : MonoBehaviour
 {
     private Animator animator;
+    private bool stopState;
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
+        stopState = true;
     }
 
-    // Update is called once per frame
-    public void OnPointerEnter()
+    public void OnPointerClick()
     {
-        animator.SetTrigger("Play");
+        
+
+        if (animator.GetFloat("AnimSpeed") == 0f && stopState)
+        {
+            stopState = false;            
+            animator.SetFloat("AnimSpeed", 1f);
+            animator.SetTrigger("Play");
+        }        
+        else if (animator.GetFloat("AnimSpeed") == 1f)
+        {
+            stopState = true;
+            animator.SetFloat("AnimSpeed", 0f);
+            animator.SetTrigger("Stop");
+        }
+
+
 
     }
 
-    public void OnPointerExit()
+    void Update()
     {
-        animator.SetTrigger("Stop");
+        if (IsDone(animator, "BLayer.Church1Anim") && !stopState)
+        {
+            Debug.Log("running");
+            stopState = true;
+            animator.SetFloat("AnimSpeed", 0f);
+            animator.SetTrigger("Stop");
+        }
+
+
 
 
     }
+
+    
+    bool IsDone(Animator anim, string stateName)
+    {
+        if (anim.GetCurrentAnimatorStateInfo(1).IsName(stateName) &&
+                anim.GetCurrentAnimatorStateInfo(1).normalizedTime > 0.999f)
+            return true;
+        else
+            return false;
+    }
+
+
+    
 }
