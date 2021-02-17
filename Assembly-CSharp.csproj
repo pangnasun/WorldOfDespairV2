@@ -64,6 +64,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DarkAndStormy-master\Assets\DarkAndStormy\PostProcess\PostProcess.cs" />
+    <Compile Include="Assets\DarkAndStormy-master\Assets\Scripts\Camera\MatchEditorCamera.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -130,6 +132,7 @@
     <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
     <None Include="Assets\Flooded_Grounds\Resources\TreeCreator\TreeCreatorLeavesOptimized.shader" />
+    <None Include="Assets\DarkAndStormy-master\Assets\DarkAndStormy\Shaders\Clouds.shader" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
@@ -143,6 +146,7 @@
     <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\Fog.shader" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\DarkAndStormy-master\Assets\DarkAndStormy\PostProcess\HiddenPostProcess.shader" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\UI\Trackball.shader" />
@@ -161,7 +165,9 @@
     <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\Bloom.cginc" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+    <None Include="Assets\DarkAndStormy-master\Assets\DarkAndStormy\Shaders\Terrain.shader" />
     <None Include="Assets\Flooded_Grounds\Content\Shaders\FG_Triplanar_BumpSpec.shader" />
+    <None Include="Assets\DarkAndStormy-master\Assets\DarkAndStormy\Shaders\FogInclude.cginc" />
     <None Include="Assets\AltRealities\Shaders\Skybox\Horizontal Skybox.shader" />
     <None Include="Assets\AltRealities\Shaders\StandardTextureBlend.shader" />
     <None Include="Assets\Flooded_Grounds\Content\Shaders\FG_Skybox_Rotating.shader" />
