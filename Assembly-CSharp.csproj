@@ -162,6 +162,7 @@
     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\VrModeController.cs" />
     <Compile Include="Assets\Vill1Wall1MidAController.cs" />
     <Compile Include="Assets\Villa1Top1Controller.cs" />
+    <Compile Include="Assets\check.cs" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\GrainGen.shader" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
