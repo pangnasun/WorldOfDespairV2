@@ -38,7 +38,7 @@ public class PropCar1AController : MonoBehaviour
     {
         if (IsDone(animator, "BLayer.PropCarAnim1") && !stopState)
         {
-            Debug.Log("running");
+            
             stopState = true;
             animator.SetFloat("AnimSpeed", 0f);
             animator.SetTrigger("Stop");

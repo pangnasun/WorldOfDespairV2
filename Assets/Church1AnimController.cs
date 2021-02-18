@@ -38,7 +38,7 @@ public class Church1AnimController : MonoBehaviour
     {
         if (IsDone(animator, "BLayer.Church1Anim") && !stopState)
         {
-            Debug.Log("running");
+            
             stopState = true;
             animator.SetFloat("AnimSpeed", 0f);
             animator.SetTrigger("Stop");

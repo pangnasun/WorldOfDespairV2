@@ -61,7 +61,7 @@ public class Villa1Top1Controller : MonoBehaviour
     {
         if (IsDone(animator, "BLayer.Villa1Top1Anim") && !stopState)
         {
-            Debug.Log("running");
+            
             stopState = true;
             animator.SetFloat("AnimSpeed", 0f);
             animator.SetTrigger("Stop");

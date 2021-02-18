@@ -38,7 +38,7 @@ public class VillaCor1Controller : MonoBehaviour
     {
         if (IsDone(animator, "BLayer.VillaCor1Anim") && !stopState)
         {
-            Debug.Log("running");
+            
             stopState = true;
             animator.SetFloat("AnimSpeed", 0f);
             animator.SetTrigger("Stop");

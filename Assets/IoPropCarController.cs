@@ -37,8 +37,7 @@ public class IoPropCarController : MonoBehaviour
     void Update()
     {
         if (IsDone(animator, "BLayer.IoPropCarAnim") && !stopState)
-        {
-            Debug.Log("running");
+        {           
             stopState = true;
             animator.SetFloat("AnimSpeed", 0f);
             animator.SetTrigger("Stop");

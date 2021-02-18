@@ -38,7 +38,7 @@ public class Villa1Wall1Controller : MonoBehaviour
     {
         if (IsDone(animator, "BLayer.Vill1Wall1Anim") && !stopState)
         {
-            Debug.Log("running");
+            
             stopState = true;
             animator.SetFloat("AnimSpeed", 0f);
             animator.SetTrigger("Stop");

@@ -172,6 +172,7 @@
     <Compile Include="Assets\Villa1TopCorA1Controller.cs" />
     <Compile Include="Assets\Villa1TopMideA20Controller.cs" />
     <Compile Include="Assets\Villa1Wall1Controller.cs" />
+    <Compile Include="Assets\Villa1WallMid1Controller.cs" />
     <Compile Include="Assets\VillaCor1Controller.cs" />
     <Compile Include="Assets\check.cs" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />

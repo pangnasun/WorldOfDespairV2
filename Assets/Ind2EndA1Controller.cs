@@ -38,7 +38,7 @@ public class Ind2EndA1Controller : MonoBehaviour
     {
         if (IsDone(animator, "BLayer.Ind2EndA1Anim") && !stopState)
         {
-            Debug.Log("running");
+            
             stopState = true;
             animator.SetFloat("AnimSpeed", 0f);
             animator.SetTrigger("Stop");

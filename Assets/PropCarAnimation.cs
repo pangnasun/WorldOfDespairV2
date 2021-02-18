@@ -15,7 +15,7 @@ public class PropCarAnimation : MonoBehaviour
 
     public void OnPointerClick()
     {
-        Debug.Log("click");
+       
 
         if (animator.GetFloat("AnimSpeed") == 0f && stopState)
         {
@@ -36,10 +36,10 @@ public class PropCarAnimation : MonoBehaviour
 
     void Update()
     {
-        Debug.Log("run");
+        
         if (IsDone(animator, "BLayer.PropCarAnimation") && !stopState)
         {
-            Debug.Log("running");
+            
             stopState = true;
             animator.SetFloat("AnimSpeed", 0f);
             animator.SetTrigger("Stop");

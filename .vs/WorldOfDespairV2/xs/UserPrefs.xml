@@ -1,15 +1,24 @@
 ﻿<Properties StartupConfiguration="{2FE83ED6-8174-68AB-517C-306B54D72CEB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/IoPropCarController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Villa1TopCorA10Controller.cs">
     <Files>
       <File FileName="Assets/Samples/Google Cardboard XR Plugin for Unity/1.4.1/Hello Cardboard/Scripts/CameraPointer.cs" Line="30" Column="42" />
-      <File FileName="Assets/Villa1Top1Controller.cs" Line="99" Column="6" />
-      <File FileName="Assets/Vill1Wall1MidAController.cs" Line="39" Column="52" />
-      <File FileName="Assets/HotSpot.cs" />
-      <File FileName="Assets/check.cs" />
-      <File FileName="Assets/Church1AnimController.cs" Line="7" Column="5" />
-      <File FileName="Assets/PropCar1AController.cs" Line="33" Column="1" />
-      <File FileName="Assets/PropCarAnimation.cs" Line="39" Column="23" />
-      <File FileName="Assets/IoPropCarController.cs" Line="60" Column="6" />
+      <File FileName="Assets/Villa1Top1Controller.cs" Line="64" Column="13" />
+      <File FileName="Assets/Vill1Wall1MidAController.cs" Line="41" Column="13" />
+      <File FileName="Assets/HotSpot.cs" Line="21" Column="2" />
+      <File FileName="Assets/Church1AnimController.cs" Line="41" Column="13" />
+      <File FileName="Assets/PropCar1AController.cs" Line="41" Column="13" />
+      <File FileName="Assets/PropCarAnimation.cs" Line="42" Column="13" />
+      <File FileName="Assets/IoPropCarController.cs" Line="40" Column="10" />
+      <File FileName="Assets/Ind2EndA1Controller.cs" Line="41" Column="13" />
+      <File FileName="Assets/Ind1Wall1Controller.cs" Line="41" Column="12" />
+      <File FileName="Assets/Church1EndB1Controller.cs" Line="40" Column="10" />
+      <File FileName="Assets/AnimController.cs" Line="1" Column="1" />
+      <File FileName="Assets/VillaCor1Controller.cs" Line="41" Column="13" />
+      <File FileName="Assets/Villa1Wall1Controller.cs" Line="41" Column="13" />
+      <File FileName="Assets/Villa1TopMideA20Controller.cs" Line="41" Column="12" />
+      <File FileName="Assets/Villa1TopCorA1Controller.cs" Line="41" Column="13" />
+      <File FileName="Assets/Villa1TopCorA10Controller.cs" Line="60" Column="6" />
+      <File FileName="Assets/Villa1WallMid1Controller.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -32,7 +41,7 @@
                   </Node>
                 </Node>
               </Node>
-              <Node name="IoPropCarController.cs" selected="True" />
+              <Node name="Villa1TopCorA10Controller.cs" selected="True" />
             </Node>
           </Node>
         </State>
