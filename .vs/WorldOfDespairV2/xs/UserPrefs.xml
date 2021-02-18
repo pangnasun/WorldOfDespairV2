@@ -1,13 +1,15 @@
 ﻿<Properties StartupConfiguration="{2FE83ED6-8174-68AB-517C-306B54D72CEB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/check.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/IoPropCarController.cs">
     <Files>
       <File FileName="Assets/Samples/Google Cardboard XR Plugin for Unity/1.4.1/Hello Cardboard/Scripts/CameraPointer.cs" Line="30" Column="42" />
-      <File FileName="Assets/Villa1Top1Controller.cs" Line="30" Column="9" />
-      <File FileName="Assets/Vill1Wall1MidAController.cs" Line="26" Column="6" />
-      <File FileName="Assets/Church1AnimController.cs" Line="18" Column="2" />
-      <File FileName="Assets/HotSpot.cs" Line="5" Column="18" />
-      <File FileName="Assets/AnimController.cs" Line="27" Column="6" />
-      <File FileName="Assets/check.cs" Line="1" Column="1" />
+      <File FileName="Assets/Villa1Top1Controller.cs" Line="99" Column="6" />
+      <File FileName="Assets/Vill1Wall1MidAController.cs" Line="39" Column="52" />
+      <File FileName="Assets/HotSpot.cs" />
+      <File FileName="Assets/check.cs" />
+      <File FileName="Assets/Church1AnimController.cs" Line="7" Column="5" />
+      <File FileName="Assets/PropCar1AController.cs" Line="33" Column="1" />
+      <File FileName="Assets/PropCarAnimation.cs" Line="39" Column="23" />
+      <File FileName="Assets/IoPropCarController.cs" Line="60" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -30,7 +32,7 @@
                   </Node>
                 </Node>
               </Node>
-              <Node name="check.cs" selected="True" />
+              <Node name="IoPropCarController.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -39,7 +41,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="656fa12c-c965-46cc-b210-674bcb028df8" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ee71b3e1-478e-499a-a584-22f0779cfc5c" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

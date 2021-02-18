@@ -71,6 +71,7 @@
     <Compile Include="Assets\AltRealities\Scripts\VrEditorEmulator.cs" />
     <Compile Include="Assets\AnimController.cs" />
     <Compile Include="Assets\Church1AnimController.cs" />
+    <Compile Include="Assets\Church1EndB1Controller.cs" />
     <Compile Include="Assets\DarkAndStormy-master\Assets\DarkAndStormy\PostProcess\PostProcess.cs" />
     <Compile Include="Assets\DarkAndStormy-master\Assets\Scripts\Camera\MatchEditorCamera.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
@@ -123,6 +124,9 @@
     <Compile Include="Assets\Flooded_Grounds\Scripts\FPSDisplay.cs" />
     <Compile Include="Assets\Flooded_Grounds\Scripts\WaterFloat.cs" />
     <Compile Include="Assets\HotSpot.cs" />
+    <Compile Include="Assets\Ind1Wall1Controller.cs" />
+    <Compile Include="Assets\Ind2EndA1Controller.cs" />
+    <Compile Include="Assets\IoPropCarController.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\OldGUIExamplesCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingPunch.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
@@ -156,12 +160,19 @@
     <Compile Include="Assets\LeanTween\Framework\LeanTest.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTween.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTweenExt.cs" />
+    <Compile Include="Assets\PropCar1AController.cs" />
+    <Compile Include="Assets\PropCarAnimation.cs" />
     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\CameraPointer.cs" />
     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\CardboardStartup.cs" />
     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\ObjectController.cs" />
     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.4.1\Hello Cardboard\Scripts\VrModeController.cs" />
     <Compile Include="Assets\Vill1Wall1MidAController.cs" />
     <Compile Include="Assets\Villa1Top1Controller.cs" />
+    <Compile Include="Assets\Villa1TopCorA10Controller.cs" />
+    <Compile Include="Assets\Villa1TopCorA1Controller.cs" />
+    <Compile Include="Assets\Villa1TopMideA20Controller.cs" />
+    <Compile Include="Assets\Villa1Wall1Controller.cs" />
+    <Compile Include="Assets\VillaCor1Controller.cs" />
     <Compile Include="Assets\check.cs" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\GrainGen.shader" />
