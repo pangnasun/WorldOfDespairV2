@@ -1,16 +1,25 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - AnimController
     - CameraPointer
     - Church1AnimController
+    - Church1EndB1Controller
     - GvrReticlePointer
     - GyroController
     - HotSpot
+    - Ind1Wall1Controller
+    - Ind2EndA1Controller
+    - IoPropCarController
     - Vill1Wall1MidAController
     - Villa1Top1Controller
+    - Villa1TopCorA10Controller
+    - Villa1TopCorA1Controller
+    - Villa1TopMideA20Controller
+    - Villa1Wall1Controller
+    - VillaCor1Controller
     - VrEditorEmulator
     - VrModeController
+    - check
     Google.XR.Cardboard.dll:
     - Google.XR.Cardboard.XRLoader
     Unity.Polybrush.Editor.dll:
@@ -124,7 +133,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3429840}
     - Class: 114
-      Script: {instanceID: 3899792}
+      Script: {instanceID: 7660692}
+    - Class: 114
+      Script: {instanceID: 9561400}
+    - Class: 114
+      Script: {instanceID: 9687522}
+    - Class: 114
+      Script: {instanceID: 9729534}
+    - Class: 114
+      Script: {instanceID: 9771468}
+    - Class: 114
+      Script: {instanceID: 9897252}
+    - Class: 114
+      Script: {instanceID: 9981110}
+    - Class: 114
+      Script: {instanceID: 10023046}
+    - Class: 114
+      Script: {instanceID: 10078976}
+    - Class: 114
+      Script: {instanceID: 11114126}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -938,7 +965,79 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AnimController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: check
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Ind1Wall1Controller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VillaCor1Controller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Villa1Wall1Controller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Villa1TopCorA1Controller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Villa1TopCorA10Controller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Ind2EndA1Controller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Church1EndB1Controller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Villa1TopMideA20Controller
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PropCar1AController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PropCarAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: IoPropCarController
   platform: 9
   scenePathNames:
   - Assets/Scenes/World Scene.unity
-  playerPath: /Users/pangnasun/Unity/Build2
+  playerPath: /Users/pangnasun/Unity/WorldBuild1
